@@ -4,10 +4,10 @@ Procesador de audio que implementa filtros digitales para ecualizar la señal de
 Para implementar el comportamiento básico descrito,se cuenta con un archivo .bit en la carpeta demo.
 
 Se debe contar con un adaptador jack 3.5mm con las puntas peladas como el siguiente:
-![alt text](demos/pictures/jack.jpg "Adaptador Jack 3.5mm")
+![jack](demo/pictures/jack.jpg "Adaptador Jack 3.5mm")
 
 Este adaptador debe ser conectado a la entrada auxiliar AD11 (P y N respectivamente) de la FPGA.
-![alt text](demos/pictures/adc_jack.jpg "Conexión al ADC")
+![adc-jack](demo/pictures/adc_jack.jpg "Conexión al ADC")
 
 Luego se debe grabar el .bit entregado, utilizando Vivado 2017.x en la tarjeta.
 El control es el siguiente: 
