@@ -9,7 +9,7 @@ module pwm #(
 	output reg aud_sd
 );
 localparam MAXCOUNT = 2**PWMWIDTH-1;
-localparam SIGNADJUST = 1<<(PWMWIDTH);
+	localparam SIGNADJUST = 1<<(PWMWIDTH-1);
 reg [PWMWIDTH-1:0]new_pwm='d0;
 reg [PWMWIDTH-1:0]PWM_ramp='d0; 
 reg [PWMWIDTH-1:0]PWM_rampNext;
